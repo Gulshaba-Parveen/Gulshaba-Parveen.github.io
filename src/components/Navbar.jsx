@@ -427,6 +427,7 @@ const mobileNAV_ITEMS: Array<NavItem> = [
     },
     // id: "Statistics",
   },
+  
   {
     label: "Contacts",
     to: "/contacts",
@@ -442,3 +443,4 @@ const mobileNAV_ITEMS: Array<NavItem> = [
 
 
 // id="resume-button-1" done
+// seperate
