@@ -1,0 +1,37 @@
+.App {
+  height: auto;
+  /* background-color: #253F1A; */
+}
+.element {
+  height: 300px;
+  width: 300px;
+  background-color: orangered;
+  animation: pulse 3s ease infinite alternate;
+  border-radius: 100%;
+}
+
+:root {
+  --animate-duration: 2.6s;
+  /* --animate-delay: 0.9s; */
+}
+
+.activeStyle {
+  color: red;
+
+  text-decoration: underline solid red 5px;
+  text-underline-offset: 9px;
+}
+
+.activeStyle:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* @keyframes pulse {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
+  }
+} */

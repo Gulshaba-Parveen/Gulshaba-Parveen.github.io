@@ -1,0 +1,99 @@
+.Intro_Resume,#resume-button-1 {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #dc143c;
+  border: 2px solid transparent;
+  margin-top: 10vh;
+}
+.Intro_Resume:hover ,#resume-button-1{
+  border-color: #fc6d6d;
+  background: whitesmoke;
+  color: #fc6d6d;
+}
+.Intro_Resume i,#resume-button-1 i {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.Intro_desc {
+  font-size: 0.25vw;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: rgb(48, 48, 48);
+}
+.Intro_desc:first-of-type {
+  color: #363062;
+  font-size: 1vw;
+}
+
+.Intro_myName {
+  color: transparent;
+  /* padding: 0px 5px; */
+  position: relative;
+  /* -webkit-text-stroke: 0.02vw #FBCB0A; */
+  text-transform: uppercase;
+  z-index: 0;
+  font-size: 30px;
+  white-space: nowrap;
+}
+.Intro_myName::before {
+  content: "Full Stack\00a0 Web Developer";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #dc143c;
+  -webkit-text-stroke: 0vw #dc143c;
+  border-right: 2px solid #dc143c;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+  z-index: 3;
+}
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0%;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+.Intro_socialLinks {
+  display: flex;
+  gap: 20px;
+}
+.Intro_socialLinks a {
+  text-decoration: none;
+}
+.Intro_socialLinks i {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* background: #363062; */
+  background-color: blue;
+  color: white;
+  transition: transform 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3px; */
+}
+.Intro_socialLinks i:hover {
+  background-color: #dc143c;
+  transform: scale(1.2);
+}
+
+

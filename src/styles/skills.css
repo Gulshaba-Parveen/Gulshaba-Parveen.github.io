@@ -1,0 +1,37 @@
+.follow-btn {
+  width: 100px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.skill-parent-box {
+  margin-top: 2rem;
+  padding: 3%;
+  row-gap: 40px;
+  column-gap: 40px;
+  border-radius: 20px;
+}
+
+.skill-card {
+  /* margin-left: 2.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  background-color: white;
+  width: 150px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 30px;
+  color: black;
+  transition: all 0.8s linear;
+}
+.skill-card:hover{
+  background-color: rgba(5, 5, 151, 0.8);
+  transform: scale(1.12);
+  color: white;
+}
