@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Gulshaba-Parveen/static/css/main.2c68a07c.css",
-    "main.js": "/Gulshaba-Parveen/static/js/main.ca170027.js",
-    "static/js/787.763f2b8c.chunk.js": "/Gulshaba-Parveen/static/js/787.763f2b8c.chunk.js",
-    "static/media/backg.webp": "/Gulshaba-Parveen/static/media/backg.8e6e58dde2891bc66715.webp",
-    "static/media/school.webp": "/Gulshaba-Parveen/static/media/school.68992c7887736be2d4f4.webp",
-    "static/media/time.webp": "/Gulshaba-Parveen/static/media/time.15850b8395e3f76ccb32.webp",
-    "static/media/logo.webp": "/Gulshaba-Parveen/static/media/logo.922881c10d1fdb40a750.webp",
-    "static/media/g.webp": "/Gulshaba-Parveen/static/media/g.b874de49f198c049175f.webp",
-    "index.html": "/Gulshaba-Parveen/index.html",
-    "main.2c68a07c.css.map": "/Gulshaba-Parveen/static/css/main.2c68a07c.css.map",
-    "main.ca170027.js.map": "/Gulshaba-Parveen/static/js/main.ca170027.js.map",
-    "787.763f2b8c.chunk.js.map": "/Gulshaba-Parveen/static/js/787.763f2b8c.chunk.js.map"
+    "main.css": "/Gulshaba-Parveen.github.io/static/css/main.2c68a07c.css",
+    "main.js": "/Gulshaba-Parveen.github.io/static/js/main.fe2cd74e.js",
+    "static/js/787.763f2b8c.chunk.js": "/Gulshaba-Parveen.github.io/static/js/787.763f2b8c.chunk.js",
+    "static/media/backg.webp": "/Gulshaba-Parveen.github.io/static/media/backg.8e6e58dde2891bc66715.webp",
+    "static/media/school.webp": "/Gulshaba-Parveen.github.io/static/media/school.68992c7887736be2d4f4.webp",
+    "static/media/time.webp": "/Gulshaba-Parveen.github.io/static/media/time.15850b8395e3f76ccb32.webp",
+    "static/media/logo.webp": "/Gulshaba-Parveen.github.io/static/media/logo.922881c10d1fdb40a750.webp",
+    "static/media/g.webp": "/Gulshaba-Parveen.github.io/static/media/g.b874de49f198c049175f.webp",
+    "index.html": "/Gulshaba-Parveen.github.io/index.html",
+    "main.2c68a07c.css.map": "/Gulshaba-Parveen.github.io/static/css/main.2c68a07c.css.map",
+    "main.fe2cd74e.js.map": "/Gulshaba-Parveen.github.io/static/js/main.fe2cd74e.js.map",
+    "787.763f2b8c.chunk.js.map": "/Gulshaba-Parveen.github.io/static/js/787.763f2b8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c68a07c.css",
-    "static/js/main.ca170027.js"
+    "static/js/main.fe2cd74e.js"
   ]
 }
