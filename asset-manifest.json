@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.bc2fd4e3.css",
-    "main.js": "/static/js/main.3eae811b.js",
+    "main.js": "/static/js/main.20a5b572.js",
     "static/js/787.763f2b8c.chunk.js": "/static/js/787.763f2b8c.chunk.js",
     "static/media/backg.webp": "/static/media/backg.8e6e58dde2891bc66715.webp",
+    "static/media/Foggy_Clothing.webp": "/static/media/Foggy_Clothing.4039d98811a185dab152.webp",
     "static/media/school.webp": "/static/media/school.68992c7887736be2d4f4.webp",
     "static/media/time.webp": "/static/media/time.15850b8395e3f76ccb32.webp",
     "static/media/logo.webp": "/static/media/logo.922881c10d1fdb40a750.webp",
@@ -11,11 +12,11 @@
     "static/media/figma.webp": "/static/media/figma.266c2bba664a9bf6987f.webp",
     "index.html": "/index.html",
     "main.bc2fd4e3.css.map": "/static/css/main.bc2fd4e3.css.map",
-    "main.3eae811b.js.map": "/static/js/main.3eae811b.js.map",
+    "main.20a5b572.js.map": "/static/js/main.20a5b572.js.map",
     "787.763f2b8c.chunk.js.map": "/static/js/787.763f2b8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc2fd4e3.css",
-    "static/js/main.3eae811b.js"
+    "static/js/main.20a5b572.js"
   ]
 }
