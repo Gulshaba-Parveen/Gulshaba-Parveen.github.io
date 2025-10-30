@@ -9,7 +9,10 @@ const Project = () => {
         <Heading textAlign={"center"}   my="40px">My <Text as="span"  color="#DC143C">Projects</Text> </Heading>
       <SimpleGrid gap="5rem" columns={{ base: "1", md: "2" }}>
         {ProjectData.map((el) => (
-          <Card key={el.heading} data={el} />
+          // ------------------------------------className={el.classes.projectCard} added
+          // <Card key={el.heading} data={el} className={el.classes.projectCard} />
+          <Card key={el.heading} data={el} className={`${el.classes.projectCard} project-card`} />
+
         ))}
       </SimpleGrid>
     </Box>

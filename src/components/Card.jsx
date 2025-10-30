@@ -12,13 +12,19 @@ import { FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 
 const Card = ({ data }) => {
-  const { image, heading, text1, text3, git, live } = data;
+  const { image, heading, text1, text3, git, live,classes } = data || {};
+  if (!classes) {
+    console.error("Classes are not defined in the data:", data);
+    return null; // Handle the case where classes are not defined
+  }
 
   return (
     <VStack
+    
       _hover={{ bg: "#137BB5", color: "white" }}
       w="100%"
-      className="animate__animated animate__zoomIn"
+      // className=" project-card  animate__animated animate__zoomIn"
+      className={`${classes.projectCard} animate__animated animate__zoomIn`}
       align="flex-start"
       boxShadow={"2xl"}
       spacing="4"
@@ -46,18 +52,20 @@ const Card = ({ data }) => {
         size={{ base: "md", md: "md" }}
         alignSelf="center"
         noOfLines={"1"}
+        // -----------
+        className={classes.title}
       >
         {" "}
         {heading}
       </Heading>
       <Box minH={"4.5rem"}>
-        <Text fontSize={{ base: "16px" }}> {text1} </Text>
+        <Text fontSize={{ base: "16px" }} className={classes.description}> {text1} </Text>
       </Box>
       {/* <Box>
         <Text color={"gray.400"}>{text2} </Text>
       </Box> */}
       <Box minH={"6.5rem"}>
-        <Text>
+        <Text className={classes.techStack}>
           <Text as="span" color={"#dc143c"} fontWeight={"bold"}>
             Tech Stacks:
           </Text>{" "}
@@ -70,6 +78,7 @@ const Card = ({ data }) => {
           bg="blue"
           color={"white"}
           onClick={() => window.open(git)}
+          className={classes.githubLink}
         >
           {" "}
           <FaGithub />
@@ -80,6 +89,7 @@ const Card = ({ data }) => {
           bg="blue"
           color={"white"}
           onClick={() => window.open(live)}
+          className={classes.deployedLink} 
         >
           {" "}
           <BiLinkExternal />

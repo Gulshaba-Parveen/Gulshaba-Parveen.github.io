@@ -2,8 +2,26 @@
 import time from "../assets/time.webp";
 
 import school from "../assets/school.webp";
-
+import figma from "../assets/figma.webp";
+import Foggy_Clothing from "../assets/Foggy_Clothing.webp"
 export const ProjectData = [
+  {
+    image: Foggy_Clothing,
+    heading: "FOGGY CLOTHING",
+    text1: `Foggy Clothing is your go-to online fashion destination, bringing you a diverse collection of clothing items to elevate your style. From trendy streetwear to elegant evening wear, Foggy Clothing caters to every fashionista's needs.`,
+    // text2: `A collaborative project built by a team of 5 executed in 5 days.`,
+    text3: `React.js | JavaScript | Html5 | CSS3  `,
+    git: "https://github.com/Nidhis2608/code-architect-3456",
+    live: "https://foggy-clothing.vercel.app/",
+    classes: {
+      projectCard: "project-card",
+      title: "project-title",
+      description: "project-description",
+      techStack: "project-tech-stack",
+      githubLink: "project-github-link",
+      deployedLink: "project-deployed-link",
+    },
+  },
   {
     image: school,
     heading: "Global Indian International School",
@@ -38,5 +56,22 @@ export const ProjectData = [
       deployedLink: "project-deployed-link",
     },
   },
+  {
+    image: figma,
+    heading: "Figma",
+    text1: `This Project is a practice exercise to recreate the landing page of figma design using HTML,CSS,SCSS.It was all about creating a pixel perfect layout using figma`,
+    // text2: `A collaborative project built by a team of 5 executed in 5 days.`,
+    text3: `Html5 | CSS3  `,
+    git: "https://github.com/Saurabh8657/Team_Digital_Galaxy",
+    live: "https://team-digital-galaxy-z766.vercel.app/",
+    classes: {
+      projectCard: "project-card",
+      title: "project-title",
+      description: "project-description",
+      techStack: "project-tech-stack",
+      githubLink: "project-github-link",
+      deployedLink: "project-deployed-link",
+    },
+  }
  
 ];

@@ -28,7 +28,8 @@ const About = () => {
         </Box>
         <Box w={{ base: "80vw", md: "500px" }} textAlign="initial" >
           <VStack spacing={"1rem"}>
-            <Text fontWeight={"400"} fontSize={{ base: "25px", md: "20px", lg: "23px" }}>
+            {/* -------------------------------------------id="user-detail-intro"---ill add next*/}
+            <Text  fontWeight={"400"} fontSize={{ base: "25px", md: "20px", lg: "23px" }}>
               {/* A passionate full-stack web developer, who believes in quality
               coding and optimising solutions by writing clean and elegant code. */}
               A passionate Full Stack Developer seeking an opportunity to gain relevant experience in the software development industry with the skills learned 👩‍💻.
@@ -44,3 +45,4 @@ const About = () => {
 };
 
 export default About;
+
