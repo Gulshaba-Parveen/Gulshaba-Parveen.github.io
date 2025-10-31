@@ -17,10 +17,11 @@ const GitHubStatsWithAdditional = () => {
         blockSize={15}
         blockMargin={5}
         fontSize={16}
+        style={{ margin: 'auto' }}
         className="react-activity-calendar"
       />
       <div className="github-stats-container">
-        <div align="center" style={{ display: "flex", gap: "40px" , marginTop: "50px" }}>
+        <div align="center" style={{ display: "flex", gap: "15px" , marginTop: "50px" }}>
           <img
             // src="https://github-readme-stats-sigma-five.vercel.app/api?username=Gulshaba-Parveen&theme=react&border_radius=4.6&hide_border=true&layout=compact&show_icons=true"
             src="https://github-readme-stats.vercel.app/api?username=Gulshaba-Parveen&theme=react&border_radius=4.6&hide_border=true&layout=compact&show_icons=true"

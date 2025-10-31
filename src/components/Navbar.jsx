@@ -127,7 +127,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Image src={web1} w="80px" alt="" />
+            <Image src={web1} w="65px" alt="" borderRadius={'50%'}/>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -158,7 +158,7 @@ export default function Navbar() {
 const DesktopNav = () => {
   const scrollOptions = { behavior: "smooth", multiple: true };
   return (
-    <Stack direction={"row"} spacing={4}>
+    <Stack direction={"row"} spacing={4} alignItems={'center'} fontWeight={500}>
       {NAV_ITEMS.map((navItem) => (
         <Box
           key={navItem.label}
@@ -209,14 +209,14 @@ const DesktopNav = () => {
         className="nav-link resume"
       >
         <a
-          href="https://drive.google.com/file/d/108NVRflFlvukcPmXZHFw0vCKabkFgLnX/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           fontSize={"lg"}
           fontWeight={500}
           id="resume-link-1"
         >
-          Resume<i className="fa-solid fa-download"></i>
+          Resume<i className="fa-solid fa-download" style={{ marginLeft: "3px" }}></i>
         </a>
       </Box>
     </Stack>
@@ -260,7 +260,7 @@ const MobileNav = () => {
       >
         <a
          id="resume-link-1"
-          href="https://drive.google.com/file/d/108NVRflFlvukcPmXZHFw0vCKabkFgLnX/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           fontSize={"lg"}

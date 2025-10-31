@@ -100,3 +100,9 @@
 #user-detail-intro{
 
 }
+
+@media screen and (max-width: 768px) {
+  .Intro_myName {
+    font-size: 26px;
+  }
+}

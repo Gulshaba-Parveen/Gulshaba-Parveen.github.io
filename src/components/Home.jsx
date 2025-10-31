@@ -55,7 +55,7 @@
 //          color="white"
 //          bg="#DC143C"
 //          border="2px solid transparent"
-         
+
 //          _hover={{
 //            textDecoration: "none",
 //            border: "2px solid #DC143C", 
@@ -121,7 +121,7 @@ import styles from "../styles/Intro.module.css";
 // import "animate.css";
 import backg from "../assets/backg.webp"
 const Home = () => {
-  const backgroundImageUrl = `url(${backg})`; 
+  const backgroundImageUrl = `url(${backg})`;
 
   return (
     <Box minH="500px" mt="0rem" id="home" style={{ backgroundImage: backgroundImageUrl, backgroundSize: "cover", backgroundPosition: "center" }}>
@@ -132,55 +132,55 @@ const Home = () => {
         justifyContent={"space-between"}
         direction={{ base: "column-reverse", md: "row" }}
       >
-        <VStack align={"flex-start"} spacing={{ base: "1rem", md: "1rem" }} id="user-details">
-          <Text id="user-detail-name" fontSize="30px" fontWeight={"bold"} mt="5rem">
+        <VStack align={"flex-start"} spacing={{ base: "1rem", md: "1rem" }} id="user-details" m={{ base: "auto", md: "0" }}>
+          <Text id="user-detail-name" fontSize={{ base: "25px", md: "30px" }} fontWeight={"bold"} mt={{ base: "1rem", md: "5rem" }} color="azure">
             Hello, my name is
           </Text>
-          <Heading fontSize="50px">Gulshaba Parveen</Heading>
+          <Heading fontSize={{ base: "40px", md: "50px" }} color="azure">Gulshaba Parveen</Heading>
           {/* ---------------------------------- */}
           <div id="user-detail-intro">
-  <Text fontSize="30px" fontWeight={"bold"}>
-    I'm a {"  "}
-    <Text as={"span"} className={styles.Intro_desc}>
-      <span className={styles.Intro_myName}>Full Stack Web Developer</span>
-    </Text>
-  </Text>
-</div>
+            <Text fontSize="30px" fontWeight={"bold"} color="azure">
+              I'm a {"  "}
+              <Text as={"span"} className={styles.Intro_desc}>
+                <span className={styles.Intro_myName}>Full Stack Web Developer</span>
+              </Text>
+            </Text>
+          </div>
 
-           <Box
-         cursor="pointer"
-         p={4}
-         borderRadius="lg"
-         h="50px" 
-         w="120px" 
-         display="flex"
-         alignItems="center"
-         justifyContent="center"
-         fontSize="17px"
-         fontWeight={600}
-         color="white"
-         bg="#DC143C"
-         border="2px solid transparent"
-         
-         _hover={{
-           textDecoration: "none",
-           border: "2px solid #DC143C", 
-           bg: "white",
-           color: "#DC143C", 
-        }}
-        id="resume-button-2"
-      >
-        <a
-        id="resume-link-2"
-          href="https://drive.google.com/file/d/108NVRflFlvukcPmXZHFw0vCKabkFgLnX/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          fontSize={"lg"}
-          fontWeight={600}
-        >
-          Resume <i className="fa-solid fa-download"></i>
-        </a>
-      </Box>
+          <Box
+            cursor="pointer"
+            p={4}
+            borderRadius="lg"
+            h="50px"
+            w="120px"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            fontSize="17px"
+            fontWeight={600}
+            color="white"
+            bg="#DC143C"
+            border="2px solid transparent"
+
+            _hover={{
+              textDecoration: "none",
+              border: "2px solid #DC143C",
+              bg: "white",
+              color: "#DC143C",
+            }}
+            id="resume-button-2"
+          >
+            <a
+              id="resume-link-2"
+              href="https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              fontSize={"lg"}
+              fontWeight={600}
+            >
+              Resume <i className="fa-solid fa-download"></i>
+            </a>
+          </Box>
           <div className={styles.Intro_socialLinks}>
             <a
               href="https://www.linkedin.com/in/gulshaba-parveen/"

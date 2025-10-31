@@ -31,10 +31,10 @@ const skillsets = [
     icon: "images/node-js.png",
     description: "Node.js",
   },
-  // {
-  //   icon: "/images/express-js.png",
-  //   description: "Express JS",
-  // },
+  {
+    icon: "/images/express-js.png",
+    description: "Express JS",
+  },
   {
     icon: "/images/mongodb.png",
     description: "MongoDB",
@@ -47,6 +47,10 @@ const skillsets = [
     icon: "images/npm.png",
     description: "NPM",
   },
+  // {
+  //   icon: "images/redux.png",
+  //   description: "Redux",
+  // },
   {
     icon: "images/visual-studio.png",
     description: "VS code",
@@ -54,17 +58,17 @@ const skillsets = [
 ];
 const Skills = () => {
   return (
-    <Box w="80%"  m="auto"  minHeight={"fit-content"} >
+    <Box w="80%" m="auto" minHeight={"fit-content"} >
       <Heading textAlign={"center"} >My <Text color="#DC143C" as="span" > Technical </Text> Skills</Heading>
-    
-        <SimpleGrid as="flex" placeItems={"center"}  justifyContent={"center"} columns={{base: "2", md: "3", lg: "4"}} className="skill-parent-box  animate__animated animate__zoomIn">
-          {skillsets.map((el) => (
-            <Box key={el.description} className="skills-card" >
-              <Image src={el.icon} alt="" width="50px" className="skills-card-img"/>
-              <Text className="skills-card-name">{el.description} </Text>
-            </Box>
-          ))}
-        </SimpleGrid>
+
+      <SimpleGrid as="flex" placeItems={"center"} justifyContent={"center"} columns={{ base: "2", md: "3", lg: "4" }} className="skill-parent-box  animate__animated animate__zoomIn">
+        {skillsets.map((el) => (
+          <Box key={el.description} className="skills-card" >
+            <Image src={el.icon} alt="" width="50px" className="skills-card-img" />
+            <Text className="skills-card-name">{el.description} </Text>
+          </Box>
+        ))}
+      </SimpleGrid>
 
     </Box>
   );
