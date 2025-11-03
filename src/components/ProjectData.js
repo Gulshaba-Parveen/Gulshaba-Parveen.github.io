@@ -10,8 +10,8 @@ export const ProjectData = [
     heading: "FOGGY CLOTHING",
     text1: `Foggy Clothing is your go-to online fashion destination, bringing you a diverse collection of clothing items to elevate your style. From trendy streetwear to elegant evening wear, Foggy Clothing caters to every fashionista's needs.`,
     // text2: `A collaborative project built by a team of 5 executed in 5 days.`,
-    text3: `React.js | JavaScript | Html5 | CSS3  `,
-    git: "https://github.com/Nidhis2608/code-architect-3456",
+    text3: `React.js | Redux | JavaScript | Html5 | CSS3`,
+    git: "https://github.com/Gulshaba-Parveen/Foggy-Clothing",
     live: "https://foggy-clothing.vercel.app/",
     classes: {
       projectCard: "project-card",
@@ -27,8 +27,8 @@ export const ProjectData = [
     heading: "Global Indian International School",
     text1: `It is a full responsive School application with authentication, authorization, CRUD operations which Provides seamless access to admissions, news, teacher details, promotes effective communication, and offers a comprehensive school overview.`,
     // text2: `A collaborative project built by a team of 5 executed in 5 days.`,
-    text3: `Html5 | CSS3 | JavScript`,
-    git: "https://github.com/Hari3199/coding-guru-1234",
+    text3: `Html5 | CSS3 | JavScript | Bootstrap | tailwind`,
+    git: "https://github.com/Gulshaba-Parveen/coding-guru-1234",
     live: "https://coding-guru-1234.netlify.app/",
     classes: {
       projectCard: "project-card",
@@ -44,8 +44,8 @@ export const ProjectData = [
     heading: "Time",
     text1: `It is a premier online news source for global events, politics, culture, and technology offers insightful analysis through engaging multimedia content.`,
     // text2: `A collaborative project built by a team of 5 executed in 5 days.`,
-    text3: `Html5 | CSS3  `,
-    git: "https://github.com/Saurabh8657/Team_Digital_Galaxy",
+    text3: `Html5 | CSS3 | Bootstrap | tailwind`,
+    git: "https://github.com/Gulshaba-Parveen/Team_Digital_Galaxy",
     live: "https://team-digital-galaxy.vercel.app/",
     classes: {
       projectCard: "project-card",
@@ -61,7 +61,7 @@ export const ProjectData = [
     heading: "Figma",
     text1: `This Project is a practice exercise to recreate the landing page of figma design using HTML,CSS,SCSS.It was all about creating a pixel perfect layout using figma`,
     // text2: `A collaborative project built by a team of 5 executed in 5 days.`,
-    text3: `Html5 | CSS3  `,
+    text3: `Html5 | CSS3 | Bootstrap| tailwind  `,
     git: "https://github.com/Saurabh8657/Team_Digital_Galaxy",
     live: "https://team-digital-galaxy-z766.vercel.app/",
     classes: {
@@ -73,5 +73,5 @@ export const ProjectData = [
       deployedLink: "project-deployed-link",
     },
   }
- 
+
 ];

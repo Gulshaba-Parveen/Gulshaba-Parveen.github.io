@@ -91,12 +91,13 @@ const Contact = () => {
           </div>
           <div className={styles.Contact_infoWrapper}>
             <div className={styles.Contact_info} id="contact-email">
-              <a href="mailto:gulshabaparveen1@gmail.com" target={"blank"}>
+              <a href="mailto:gulshabaparveen1@gmail.com">
                 <i className="fa-solid fa-envelope"></i>gulshabaparveen1@gmail.com
               </a>
             </div>
             <div className={styles.Contact_info} id="contact-phone">
-              <a href="tel:+91-8861013874" target={"blank"}>
+              {/* <a href="tel:+91-8861013874"> */}
+              <a href="tel:+91-8861013874" onClick={(e) => e.preventDefault()}>
                 <i className="fa-solid fa-phone"></i>+91-8861013874
               </a>
             </div>

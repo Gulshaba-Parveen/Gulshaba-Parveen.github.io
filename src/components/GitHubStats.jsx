@@ -5,7 +5,7 @@ import React from "react";
 
 const GitHubStatsWithAdditional = () => {
   return (
-    <Box w="80%" m={"auto"} mb="6rem">
+    <Box w="80%" m={"auto"} mb={{ base: "2rem", md: "4rem" }}>
       <Heading textAlign={"center"} my="40px">
         Git{" "}
         <Text as="span" color="#DC143C">

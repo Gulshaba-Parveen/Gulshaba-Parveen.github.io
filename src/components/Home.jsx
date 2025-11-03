@@ -148,6 +148,7 @@ const Home = () => {
           </div>
 
           <Box
+            as="div"
             cursor="pointer"
             p={4}
             borderRadius="lg"
@@ -172,11 +173,17 @@ const Home = () => {
           >
             <a
               id="resume-link-2"
-              href="https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing"
+              href="/images/Gulshaba_Parveen_Resume_.pdf"
               target="_blank"
-              rel="noopener noreferrer"
               fontSize={"lg"}
               fontWeight={600}
+              onClick={() => {
+                window.open(
+                  'https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing',
+                  "_blank"
+                );
+              }}
+              download={true}
             >
               Resume <i className="fa-solid fa-download"></i>
             </a>

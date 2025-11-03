@@ -130,7 +130,7 @@ export default function Navbar() {
             <Image src={web1} w="65px" alt="" borderRadius={'50%'}/>
           </Text>
 
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
+          <Flex display={{ base: "none", md: "flex" }} ml={10} margin={'auto'}>
           {isMobile ? <MobileNav /> : <DesktopNav />}
             {/* <DesktopNav /> */}
           </Flex>
@@ -209,12 +209,20 @@ const DesktopNav = () => {
         className="nav-link resume"
       >
         <a
-          href="https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing"
+          // href="https://drive.google.com/uc?export=download&id=1ehCPghebC087GU1gtauV8iEMWFyuPi6X"
+          href="/images/Gulshaba_Parveen_Resume_.pdf"
           target="_blank"
           rel="noopener noreferrer"
           fontSize={"lg"}
           fontWeight={500}
           id="resume-link-1"
+          onClick={() => {
+                window.open(
+                  'https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing',
+                  "_blank"
+                );
+              }}
+              download={true}
         >
           Resume<i className="fa-solid fa-download" style={{ marginLeft: "3px" }}></i>
         </a>
@@ -260,11 +268,19 @@ const MobileNav = () => {
       >
         <a
          id="resume-link-1"
-          href="https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing"
+          // href="https://drive.google.com/uc?export=download&id=1ehCPghebC087GU1gtauV8iEMWFyuPi6X"
+          href="/images/Gulshaba_Parveen_Resume_.pdf"
           target="_blank"
           rel="noopener noreferrer"
           fontSize={"lg"}
           fontWeight={600}
+           onClick={() => {
+                window.open(
+                  'https://drive.google.com/file/d/1ehCPghebC087GU1gtauV8iEMWFyuPi6X/view?usp=sharing',
+                  "_blank"
+                );
+              }}
+              download={true}
         >
           Resume <i className="fa-solid fa-download"></i>
         </a>
@@ -382,7 +398,7 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     to: "/projects",
     scrollObj: {
-      top: 1750,
+      top: 1755,
       behavior: "smooth",
     },
     id: "projects",
@@ -393,7 +409,7 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Statistics", // Add this new entry
     to: "/statistics",
     scrollObj: {
-      top: 3350, // Adjust this value based on your needs or remove it if you don't want scrolling
+      top: 3090, // Adjust this value based on your needs or remove it if you don't want scrolling
       behavior: "smooth",
     },
     //  id: "Statistics",
@@ -437,7 +453,7 @@ const mobileNAV_ITEMS: Array<NavItem> = [
     label: "Skills",
     to: "/skills",
     scrollObj: {
-      top: 2300,
+      top: 2100,
       behavior: "smooth",
     },
     // id: "skills",
@@ -447,7 +463,7 @@ const mobileNAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     to: "/projects",
     scrollObj: {
-      top: 3300,
+      top: 3160,
       behavior: "smooth",
     },
     // id: "projects",
@@ -457,7 +473,7 @@ const mobileNAV_ITEMS: Array<NavItem> = [
     label: "Statistics", // Add this new entry
     to: "/statistics",
     scrollObj: {
-      top: 6100, 
+      top: 5500, 
       behavior: "smooth",
     },
     // id: "Statistics",

@@ -35,7 +35,7 @@ const Card = ({ data }) => {
         alignSelf={"center"}
         borderRadius={"20px"}
         w="100%"
-        height={{ base: "15rem", sm: "20rem", md: "15rem", lg: "20rem" }}
+        height={{ base: "12rem", sm: "15rem", md: "13rem", lg: "16rem" }}
         overflow="hidden"
       >
         <Image
@@ -64,7 +64,7 @@ const Card = ({ data }) => {
       {/* <Box>
         <Text color={"gray.400"}>{text2} </Text>
       </Box> */}
-      <Box minH={"6.5rem"}>
+      <Box minH={"auto"}>
         <Text className={classes.techStack}>
           <Text as="span" color={"#dc143c"} fontWeight={"bold"}>
             Tech Stacks:
